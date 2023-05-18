@@ -3,7 +3,6 @@ package com.example.lab34.controller;
 import com.example.lab34.entity.MonHoc;
 import com.example.lab34.entity.request.AddSubjectRequest;
 import com.example.lab34.service.IMonHocService;
-import com.example.lab34.service.MonHocService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -36,7 +35,7 @@ public class MonHocController {
 //                            @RequestParam(name = "DungNA29") String dungNA29,
 //                            @RequestParam(name = "batBuoc") Boolean batBuoc){
 
-    public String addMonHoc(Model model, @RequestBody AddSubjectRequest request) {
+    public String addMonHoc(Model model, @ModelAttribute AddSubjectRequest request) {
         ArrayList<String> teachers = new ArrayList<>();
 //        teachers.add(minhDQ8);
 //        teachers.add(tienNH21);
@@ -44,6 +43,6 @@ public class MonHocController {
 //        teachers.add(dungNA29);
 //        MonHoc mh = new MonHoc(maMon, tenMon, soTinChi, chuyenNganh, teachers, batBuoc);
 //        iMonHocService.addMonHoc(mh);
-        return "redirect:/lab34/bai1";
+        return "redirect:/lab34/bai-1";
     }
 }

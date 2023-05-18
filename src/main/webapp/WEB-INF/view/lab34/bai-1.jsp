@@ -45,13 +45,13 @@
         <div class="col-sm-10 d-flex">
             <div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="MinhDQ8" name="MinhDQ8">
+                    <input class="form-check-input" type="checkbox" value="MinhDQ8" name="teachers">
                     <label class="form-check-label" >
                         MinhDQ8
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="DungNA29" name="DungNA29">
+                    <input class="form-check-input" type="checkbox" value="DungNA29" name="teachers">
                     <label class="form-check-label" >
                         DungNA29
                     </label>
@@ -59,13 +59,13 @@
             </div>
             <div class="ms-5">
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="TienNH21" name="TienNH21">
+                    <input class="form-check-input" type="checkbox" value="TienNH21" name="teachers">
                     <label class="form-check-label" >
                         TienNH21
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="NguyenVV4" name="NguyenVV4">
+                    <input class="form-check-input" type="checkbox" value="NguyenVV4" name="teachers">
                     <label class="form-check-label">
                         NguyenVV4
                     </label>
